@@ -576,74 +576,51 @@
 
 </body>
 
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.11.1/css/all.css">
- <h1 align="center" style="color:black; font-family: Monaco, 'Courier New', monospace; size:12px; text-transform:capitalize; text-decoration: none;">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+      /* Estilos de los iconos flotantes */
+      .social-icons {
+          position: fixed;
+          top: 50%;
+          right: 0;
+          transform: translateY(-50%);
+      }
+      
+      .social-icons a {
+          display: block;
+          margin: 10px 0;
+          width: 40px;
+          height: 40px;
+          background-color: #045f5f;
+          color: white;
+          text-align: center;
+          line-height: 40px;
+          border-radius: 50%;
+          transition: background-color 0.3s ease;
+      }
 
+      .social-icons a:hover {
+          background-color: #0056b3; /* Cambia el color al pasar el cursor */
+      }
 
-<style>
-.sticky-container{
-    padding:0px;
-    margin:0px;
-    position:fixed;
-    right:-130px;
-    top:230px;
-    width:210px;
-    z-index: 1100;
-}
-.sticky li{	border-radius: 8px; margin-top: 2px;list-style-type:none;background-color:#fff;color:#efefef;height:38px;padding:0px;margin:0px 0px 2px 0px;-webkit-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;transition:all 0.25s ease-in-out;cursor:pointer;}
-.sticky li:hover{ margin-left:-95px;}
-.sticky li img{ float:left;}
-.sticky li p{padding-top:5px;margin:0px;line-height:16px;font-size:small;display: inline-block;}
-.sticky li p a{text-decoration:none;color:#2C3539;}
-.sticky li p a:hover{ text-decoration:underline;}
-.social-icons a {padding: 6px 8px; display:inline-block;}
-.social-icons.big-icons a{font-size:28px; padding-left: 12px; padding-right: 12px;}
-.social-icons.bigger-icons a{font-size:38px;padding-left: 14px;padding-right: 14px;}
-.social-icons a:hover { text-decoration: none !important; }
-.colored-icons .link-vk, .link-vk:hover{ color:#5181B8; }
-.colored-icons .link-facebook, .link-facebook:hover{ color:#3b5998; }
-.colored-icons .link-twitter, .link-twitter:hover{ color:#1da1f2; }
-.colored-icons .link-telegram, .link-telegram:hover{ color:#28A0D4; }
-.colored-icons .link-instagram, .link-instagram:hover{ color:#833ab4; }
-.colored-icons .link-youtube, .link-youtube:hover{ color:#d30606; }
-.colored-icons .link-pinterest, .link-pinterest:hover{ color:#e60023; }
-.colored-icons .link-linkedin, .link-linkedin:hover{ color:#0077b5; }
-</style>
+      .social-icons a i {
+          font-size: 20px;
+      }
+  </style>
 
-<div class="sticky-container colored-icons">
-<ul class="sticky">
-<li>
-<a href="https://www.facebook.com/ALUMINIOSYVIDRIOSSANROMARIO?mibextid=ZbWKwL" title="Conectar con Facebook" data-tag="Conectar con Facebook" onclick="window.open(this.href, this.target, 'width=770,height=368'); return false;">
-<i class="link-facebook fab fa-facebook-square" style="font-size:35px;margin-left: 2px"></i><p> Conectar con<br>  Facebook</p></a>
-</li>
-<!--<li>
- <img src="" width="39" height="40">
-<p><a href="" title="Conectar con Messenger" data-tag="Conectar con Messenger" onclick="window.open(this.href, this.target, 'width=770,height=600'); return false;"> Enviar en<br> Messenger</a></p>
-
-</li>-->
-
-
-<li>
-<a href="https://youtube.com/shorts/fSFW6O5Qh5E?feature=share" target="_blank">
-<i class="link-pinterest fab fa-youtube" style="font-size: 35px; margin-top: -12px;"></i><p> Enviar en<br>  Youtube</p></a>
-</li>
-
-<li>
-<a href="https://www.instagram.com/corporacionsanromario/profilecard/?igsh=emIwdDZwcWZzYnZp" target="_blank">
-<i class="link-pinterest fab fa-instagram" style="font-size: 35px; margin-top: -12px;"></i><p> Enviar en<br>  Youtube</p></a>
-</li>
-
-<li>
-<a href="https://tiktok.com/@corporacin.san.rom" target="_blank">
-<i class="link-pinterest fab fa-tiktok" style="font-size: 35px; margin-top: -12px;"></i><p> Enviar en<br>  Youtube</p></a>
-</li>
   
-<li>
-<img src="https://api.whatsapp.com/send?phone=51999100133" width="39" height="40">
-<p><a href="link-pinterest fab fa-WhatsApp" aria-label="Compartir en WhatsApp" data-action="share/whatsapp/share" title="Compartir en WhatsApp" rel="noopener external noreferrer" target="_blank"> Enviar en<br> WhatsApp</a></p>
-</li> 
-</ul>
-</div>
+</head>
+
+
+<body>
+  <div class="social-icons">
+      <a href="https://www.facebook.com/ALUMINIOSYVIDRIOSSANROMARIO?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://tiktok.com/@corporacin.san.rom" target="_blank"><i class="fab fa-tiktok"></i></a>
+      <a href="https://www.instagram.com/corporacionsanromario/profilecard/?igsh=emIwdDZwcWZzYnZp" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://api.whatsapp.com/send?phone=51999100133" target="_blank"><i class="fab fa-whatsapp"></i></a>
+  </div>
+</body>
 
 
 </html>
